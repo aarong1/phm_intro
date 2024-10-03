@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@900&display=swap');
+body {
+  min-height: 1vh;
+}
+#page1{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#par{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#h{
+  font-size: 130px;
+  font-weight:900;
+  display:inline;
+  text-align:center;
+  /*background-image:linear-gradient(0.75turn, #3f87a6, #ebf8e1, #f69d3c); */
+  background-image:linear-gradient(90deg, #61f29a, #9a61f2 , #f261b9);
+  background-clip:text;
+  -webkit-background-clip: text;
+  color: transparent;
+
+}
+
+
+h1{
+  font-size: 130px;
+  font-weight:900;
+  text-align:center;
+  /*background-image:linear-gradient(0.75turn, #3f87a6, #ebf8e1, #f69d3c); */
+  background-image:linear-gradient(90deg, #61f29a, #9a61f2 , #f261b9);
+  background-clip:text;
+  -webkit-background-clip: text;
+  color: transparent;
+  will-change: filter;
+  transition: filter 1300ms;
+}
+
+h1:hover {filter: drop-shadow(10px 10px 10px #646cffaa);
+  }
+  
+#shine{
+ 
+   transition: filter 1300ms;
+}
+
+#shine:hover {filter: drop-shadow(0 0 2em #646cffaa);

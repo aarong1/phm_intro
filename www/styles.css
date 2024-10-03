@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@900&display=swap');
+
+
+body {
+  text-align: center;
+  font-weight: 900;
+  
+  font-family: "Onest", sans-serif;
+  font-style: normal;
+  
+  color-scheme: light dark;
+  background: linear-gradient(0.75turn, #3f87a6, #ebf8e1, #f69d3c);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.logo-img path {
+  fill: #000;
+}
+
+#page1{
+  min-height: 1vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+h1{
+  font-size: 100px;
+  display:inline;
+  text-align:center;
+  /*background-image:linear-gradient(0.75turn, #3f87a6, #ebf8e1, #f69d3c); */
+  background-image:linear-gradient(90deg, #61f29a, #9a61f2 , #f261b9);
+  background-clip:text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+h2{
+    color:red;
+}
+
+/*
+#holder {
+  box-shadow: 20px 20px 50px #000, 
+            -30px -30px 60px #000;
+  background: rgba(0,0,0,1);
+  border 15px solid white;
+  border-radius: 0.5rem;
+  min-width:30%;
+  filter: blur(4px);
+}
+
+
+*/
+#holder{
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.1);
+border-radius: 50px;
+box-shadow: 20px 20px 50px #fff, 
+            -30px -30px 600px #fff;
+
+backdrop-filter: blur(100px);
+-webkit-backdrop-filter: blur(15px);
+border: 1px solid white;
+}
