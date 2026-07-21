@@ -9,8 +9,8 @@ library(shiny)
 library(DT)
 library(apexcharter)
 
-source('./components/startup_overlay.R')
 source('./components/infographics_value_box.R')
+source('./components/startup_overlay.R')
 
 
 
