@@ -691,7 +691,7 @@ HTML('<footer class="fixed bottom-0 left-0 w-full z-50 bg-base-200 text-base-con
   
   <!-- Copyright bar -->
   <div class="bg-base-300 text-center py-1">
-    <p class="text-xs opacity-70">Copyright © 2025 - All rights reserved by Public Health Agency Ltd</p>
+    <p class="text-xs opacity-70">  2025 - Population Health Model from Public Health Agency</p>
   </div>
 </footer>'
      )
